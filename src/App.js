@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { ToastContainer } from "react-toastify";
+import AnimatedCursor from "react-animated-cursor";
 
+import Header from "./components/Header/Header";
+import About from "./pages/About/About";
+import Home from "./pages/Home/Home";
+import SideBar from "./components/SideBar/SideBar";
+import Skill from "./pages/Skill/Skill";
+import Experience from "./pages/Experience/Experience";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+
+import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <SideBar />
+      <Home />
+      <About />
+      <Skill />
+      <Experience />
+      <Portfolio />
+      <Contact />
+      <Footer />
+      <ToastContainer />
+      <AnimatedCursor
+        innerSize={5}
+        innerStyle={{ backgroundColor: "var(--white-color)" }}
+        outerSize={50}
+        outerStyle={{
+          background: "transparent",
+          border: "1px solid var(--white-color)",
+        }}
+        outerScale={0.5}
+        innerScale={1.2}
+        trailingSpeed={5}
+      />
     </div>
   );
 }
