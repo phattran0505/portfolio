@@ -22,7 +22,7 @@ function About() {
           <p>
             My fullname name is Tran Xuan Phat, and I am 20 years
             old. I live and work in Ho Chi Minh City. Currently, I am a
-            second-year student at the Posts and Telecommunications Institute of
+            third-year student at the Posts and Telecommunications Institute of
             Technology, majoring in the Internet of Things. The reason I decided
             to become a full-stack developer is my interest in lively,
             beautiful, and convenient websites. This passion has motivated me on
@@ -44,8 +44,8 @@ function About() {
             </div>
           </div>
           <a
-            href="/template-CV.pdf"
-            download={"CV.pdf"}
+            href="/My CV.pdf"
+            download={"My CV.pdf"}
             className={cx("btn", "about-btn")}
           >
             download CV

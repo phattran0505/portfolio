@@ -17,22 +17,22 @@ function SideBar() {
         <div className={cx("line")}></div>
         <ul>
           <li>
-            <a href="*">
+            <a href="https://www.facebook.com/phat.tran.306106/">
               <FaFacebookF />
             </a>
           </li>
           <li>
-            <a href="*">
+            <a href="https://www.instagram.com/so4._0505/">
               <FaInstagram />
             </a>
           </li>
           <li>
-            <a href="*">
+            <a href="https://github.com/phattran0505">
               <FaGithub />
             </a>
           </li>
           <li>
-            <a href="*">
+            <a href="https://www.linkedin.com/in/phat-tran-10872831a/">
               <FaLinkedinIn />
             </a>
           </li>
