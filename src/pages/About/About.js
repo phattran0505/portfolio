@@ -18,16 +18,17 @@ function About() {
         </div>
         <div className={cx("about-content")} data-aos="fade-left">
           <h3>Who am i?</h3>
-          <h2>I'm Xuan Phat a Fullstack Web Developer </h2>
+          <h2>I'm Xuan Phat a Frontend Developer </h2>
           <p>
-            My fullname name is Tran Xuan Phat, and I am 20 years
-            old. I live and work in Ho Chi Minh City. Currently, I am a
-            third-year student at the Posts and Telecommunications Institute of
-            Technology, majoring in the Internet of Things. The reason I decided
-            to become a full-stack developer is my interest in lively,
-            beautiful, and convenient websites. This passion has motivated me on
-            my path to becoming a full-stack developer. Thank you for getting to
-            know me.
+            My name is Tran Xuan Phat, I am 21 years old and currently living
+            and studying in Ho Chi Minh City. I am a third-year student at the
+            Posts and Telecommunications Institute of Technology, majoring in
+            Internet of Things. I have a strong passion for creating lively,
+            visually appealing, and user-friendly websites, which has inspired
+            me to pursue a career as a Frontend Developer. This interest drives
+            me to continuously improve my skills in building modern, responsive
+            interfaces that enhance the user experience. Thank you for taking
+            the time to get to know me.
           </p>
           <div className={cx("information")}>
             <div className={cx("information-box")}>
@@ -37,7 +38,7 @@ function About() {
               <span>from:</span> Ho Chi Minh city, Viet Nam
             </div>
             <div className={cx("information-box")}>
-              <span>Age:</span> 20
+              <span>Age:</span> 21
             </div>
             <div className={cx("information-box")}>
               <span>email:</span> phattran052004@gmail.com

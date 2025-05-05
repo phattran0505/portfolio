@@ -43,7 +43,7 @@ function Skill() {
           <div className={cx("skill-progress")}>
             <p className={cx("label")}>ReactJS</p>
             <div className={cx("line")}>
-              <div className={cx("value", "reactjs")}>85%</div>
+              <div className={cx("value", "reactjs")}>90%</div>
             </div>
           </div>
           <div className={cx("skill-progress")}>
